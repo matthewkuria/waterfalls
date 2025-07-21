@@ -47,6 +47,76 @@ body {
   font-family:'Poppins', sans-serif; 
 }
 
+/* For the carousel */
+
+#gallery-root {
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 1200px;
+  height: 90vh;
+  background: #111;
+  padding: 0;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+/* Slick carousel styles */
+.slick-dots li button:before {
+  color: white;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+  opacity: 1;
+}
+/* Ensure slick slider works correctly */
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-list {
+  overflow: visible;
+  width: 100%;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+/* Fix modal positioning */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  max-width: 90vw;
+  max-height: 90vh;
+  outline: none;
+}
 .hero{
   background: linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/hero-image.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -56,6 +126,7 @@ body {
   background:  linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/hero-image.jpg') no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(10px);
+  width: 100vw;
 }
 .gallery-banner {
   background:  linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/gallery_banner.jpg') no-repeat center center fixed;

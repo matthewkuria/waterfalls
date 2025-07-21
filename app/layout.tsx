@@ -30,6 +30,9 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <div id="portal"></div>
+        <div id="toast"></div>
+        <div id="modal"></div>
       </body>
     </html>
   );

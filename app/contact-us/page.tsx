@@ -5,21 +5,21 @@ import React from 'react'
 const page = () => {
   return (
       
-      <div className="w-full flex flex-col justify-center items-center">
-        <div className="contact-page w-full h-[70vh] flex items-end justify-start bg-cover bg-center relative">
-            <div className="hero-content text-left text-white ">
-            <div className="max-w-md">
-                <h1 className=" text-3xl md:text-4xl font-bold text-background">Contact Us</h1>
+    <div className="w-full flex flex-col justify-center items-center">
+      {/* Contacts banner */}        
+       <section className="contact-page text-white h-[70vh] flex items-end justify-start bg-cover bg-center relative">
+                <div className="flex flex-col text-left p-10">
+                <h1 className="text-3xl font-bold mb-4 uppercase text-primary">Contact Us</h1>
                 <div className="breadcrumbs text-sm">
                     <ul>
                        <li className=""><Link href="/">Home</Link></li> 
                         <li className='text-primary font-semibold'>Contact page</li>
                     </ul>
-            </div>
-                <p className="py-6">We would love to hear from you! If you have any questions or inquiries, please fill out the form below or contact us directly.</p>
-            </div>
-          </div>
-        </div>
+                </div>
+                <p className="w-full md:w-1/2">We would love to hear from you! If you have any questions or inquiries, please fill out the form below or contact us directly.</p>
+
+              </div>
+      </section>
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6 items-baseline p-6 max-w-screen-xl mx-auto">
               <div className="mt-8">
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
