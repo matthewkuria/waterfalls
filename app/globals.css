@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@plugin "daisyui/theme"{
+  name: "light";
+  default: true;
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --color-primary: #B6D25A;
+  --color-secondary: #419DD8;
+};
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -20,16 +29,20 @@
 
 
 body { 
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
   font-family:'Poppins', sans-serif; 
 }
 
 .hero{
-  background:  url('../public/images/hero-image.jpg') no-repeat center center fixed;
+  background: linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/hero-image.jpg') no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(10px);
 }
 .contact-page {
-  background: url('../public/images/contacts_banner.jpg') no-repeat center center fixed;
+  background: url('../public/images/hero-image.jpg') no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(10px);
 }

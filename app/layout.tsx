@@ -13,7 +13,7 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Waterfalls Country Home ",
+  title: "Waterfalls Country Homes Ltd",
   description: "Thika Greens Phase 1, also known as Waterfalls Country Homes, is a premier gated community offering a homogenous lifestyle estate. The estate is 5 minutes drive from The Blue Posts Hotel, off the well-maintained Kandara Road. This upmarket address comprises of 960 quarter acre properties in a secure serviced environment. The infrastructure, comprising of water, electricity, roads and security features is already set up.",
 };
 
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body
         className={`${poppins.className}`}
       >
