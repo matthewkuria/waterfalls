@@ -133,3 +133,17 @@ body {
   background-size: cover;
   backdrop-filter: blur(10px);
 }
+.amenities-banner{
+  background: linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/gallery-1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+.about-banner {
+  background: linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/about-banner.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+.title {
+  font-weight: bold;
+  color: var(--color-primary);
+}
