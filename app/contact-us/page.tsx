@@ -6,16 +6,17 @@ const page = () => {
   return (
       
       <div className="w-full flex flex-col justify-center items-center">
-        <div className="contact-page w-full h-[45vh] bg-cover bg-center relative flex items-center justify-center text-left">
+        <div className="contact-page w-full h-[70vh] flex items-end justify-start bg-cover bg-center relative">
             <div className="hero-content text-left text-white ">
             <div className="max-w-md">
-                <h1 className=" text-3xl md:text-5xl font-bold text-background">Contact Us</h1>
+                <h1 className=" text-3xl md:text-4xl font-bold text-background">Contact Us</h1>
                 <div className="breadcrumbs text-sm">
                     <ul>
                        <li className=""><Link href="/">Home</Link></li> 
                         <li className='text-primary font-semibold'>Contact page</li>
                     </ul>
-                </div>
+            </div>
+                <p className="py-6">We would love to hear from you! If you have any questions or inquiries, please fill out the form below or contact us directly.</p>
             </div>
           </div>
         </div>

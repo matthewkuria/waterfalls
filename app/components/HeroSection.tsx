@@ -8,7 +8,7 @@ const HeroSection = () => {
         <h1 className="text-4xl font-bold mb-4">Welcome to <span className="">Waterfalls Country</span><span className="text-secondary px-2">Homes Ltd</span></h1>
         <p className="mb-8">Your journey starts here.</p>
         <div className="flex gap-5">
-          <Link href="/"><button className="btn btn-primary rounded-md">Explore more</button></Link>
+          <Link href="/about-us"><button className="btn btn-primary rounded-md">Explore more</button></Link>
           <Link href="/contact-us">
             <button className="btn bg-transparent text-primary mr-4 hover:bg-background  rounded-md">Contact Us</button>
           </Link>

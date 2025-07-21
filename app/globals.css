@@ -10,7 +10,18 @@
   --color-secondary: #419DD8;
 };
 
-:root {
+[data-theme="light"] {
+  .my-btn {
+    background-color: #1EA1F1;
+    border-color: #1EA1F1;
+  }
+  .my-btn:hover {
+    background-color: #1C96E1;
+    border-color: #1C96E1;
+    scrollbar-color: color-mix(in oklch, currentColor 35%, #B6D25A) #B6D25A;
+  }
+} 
+:root, [data-theme] {
   --background: #ffffff;
   --foreground: #171717;
   --primary: #B6D25A;
@@ -42,7 +53,12 @@ body {
   backdrop-filter: blur(10px);
 }
 .contact-page {
-  background: url('../public/images/hero-image.jpg') no-repeat center center fixed;
+  background:  linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/hero-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+.gallery-banner {
+  background:  linear-gradient(45deg, rgba(30, 30, 30, 1), transparent), url('../public/images/gallery_banner.jpg') no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(10px);
 }
