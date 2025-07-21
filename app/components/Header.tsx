@@ -12,13 +12,12 @@ const Header = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/about-us">About Us</Link></li>
-        <li><Link href="/amenities">Amenities</Link></li>
-        <li><Link href="/agency">Agency</Link></li>
-        <li><Link href="/gallery">Gallery</Link></li>        
-        <li><Link href="/contact-us">Contact Us</Link></li>
+        className="dropdown-content bg-base-100  z-10 mt-6 w-[300px] h-[30vh] p-2 gap-10 shadow">
+        <li className='w-full hover:bg-base-300'><Link className=" hover:text-secondary" href="/">Home</Link></li>
+        <li className='w-full hover:bg-base-300'><Link className=" hover:text-secondary" href="/about-us">About Us</Link></li>
+        <li className='w-full hover:bg-base-300'><Link className=" hover:text-secondary" href="/amenities">Amenities</Link></li>
+        <li className='w-full hover:bg-base-300'><Link className=" hover:text-secondary" href="/gallery">Gallery</Link></li>        
+        <li className='w-full hover:bg-base-300'><Link className=" hover:text-secondary" href="/contact-us">Contact Us</Link></li>
       </ul>
     </div>
   </div>
