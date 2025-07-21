@@ -6,7 +6,6 @@
   --foreground: #171717;
   --primary: #B6D25A;
   --secondary: #419DD8;
-  --accent: #8b5cf6;
   
 }
 
@@ -15,7 +14,6 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
-  --color-accent: var(--accent);
 
 }
 
@@ -27,6 +25,11 @@ body {
 
 .hero{
   background:  url('../public/images/hero-image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+.contact-page {
+  background: url('../public/images/contacts_banner.jpg') no-repeat center center fixed;
   background-size: cover;
   backdrop-filter: blur(10px);
 }
