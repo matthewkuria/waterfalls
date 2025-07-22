@@ -17,14 +17,16 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="w-full flex justify-center items-center my-10 md:mt-0">
-        <p className="text-primary text-sm font-semibold uppercase mt-4 animate-bounce">
-          Explore more
-          <span className="">
-            <svg xmlns="http://www.w3.org/2000/svg" transform='rotate(90)' className="h-5 w-5 inline-block ml-2" fill="blue" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </span>
-        </p>
+        <Link href="#accordion-links">
+          <p className="text-primary text-sm font-semibold uppercase mt-4 animate-bounce">
+            Explore more
+            <span className="">
+              <svg xmlns="http://www.w3.org/2000/svg" transform='rotate(90)' className="h-5 w-5 inline-block ml-2" fill="blue" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </p>
+        </Link>
       </div>
         
       </div>
