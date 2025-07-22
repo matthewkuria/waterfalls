@@ -19,7 +19,7 @@ const HousePlans = () => {
           <aside className="flex flex-col  justify-center w-[60vw] md:w-[50vw] p-4">
               <h6 className="text-left text-sm my-5 text-gray-400">Browse house plans here</h6>
               <div className="w-full">
-                <div className="card z-30 shadow-md bg-base-100 transition-transform duration-500 ease-in-out">
+                <div className="card z-30 shadow-md bg-base-100 transition-transform duration-500 ease-in-out ">
                     <div className="card-body bg-secondary text-white">
                     <h2 className="card-title">House plan 1</h2>
                     <p>Click <Link href="#" className='px-2 underline text-primary'>here</Link>to read</p>
