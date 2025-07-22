@@ -5,7 +5,7 @@ const AccordionLinks = () => {
   return (
       <section className="flex flex-col items-center justify-center w-full  mx-auto my-8 md:flex-row gap-20 md:justify-between">
           <div className="w-full text-left my-8">
-              <p className="">
+              <p className="p-10 text-sm text-gray-700">
                 Thika Greens Phase 1, also known as Waterfalls Country Homes, is a premier gated community offering a homogenous lifestyle estate. The estate is 5 minutes drive from The Blue Posts Hotel, off the well-maintained Kandara Road. This upmarket address comprises of 960 quarter acre properties in a secure serviced environment. The infrastructure, comprising of water, electricity, roads and security features is already set up
               </p>
           </div>
