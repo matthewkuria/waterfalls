@@ -10,7 +10,7 @@ const HeroSection = () => {
           <p className="mb-8">Your journey to become a home owner starts here.</p>
        </div>
         <div className="flex gap-5">
-          <Link href="/about-us"><button className="btn btn-primary rounded-md">Explore more</button></Link>
+          <Link href="/about-us"><button className="btn btn-primary rounded-md">About Us</button></Link>
           <Link href="/contact-us">
             <button className="btn bg-transparent text-primary mr-4 hover:bg-background  rounded-md">Contact Us</button>
           </Link>
